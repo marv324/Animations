@@ -1,0 +1,25 @@
+img {
+    padding-top: 50px;
+}
+#football {
+    filter: grayscale(10);
+    transform: rotate(5deg);
+}
+#soccer {
+    transform: skew(-20deg);
+}
+#fish img{
+    transform: translateX(100px) translateY(-30px);
+}
+figcaption {
+    font-size: 15px;
+    color: green;
+}
+/*transitions */
+button:hover {
+    background-color: blue;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: 1s;
+}
