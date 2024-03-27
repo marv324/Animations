@@ -1,0 +1,96 @@
+/* reset everything */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+div a {
+    display: block;
+    text-decoration: none;
+    color:  rgb(186, 0, 0);
+}
+.flexbox-container {
+    display: flex;
+    width: 70%;
+    height: 11vh;
+    font-size: 4vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.flexbox-items {
+    flex: 1;
+    text-align: center;
+    padding-top: 2vh;
+    font-size: 3vh;
+    padding-top: 4vh;
+}
+.flexbox-item {
+    flex: 1;
+}
+a {
+    text-decoration: none;
+}
+#phone {
+    width: 40px;
+    height: 7.3vh;
+    padding-top: 3.7vh;
+    background-color:  rgb(186, 0, 0);
+}
+h1{
+    width: 26vw;
+    height: 9vh;
+    padding-left: 2vw;
+    font-size: 5vh;
+    padding-top: 2vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+span {
+    color: black;
+    padding-right: 2vw;
+}
+button {
+    display: block;
+    width: 28vw;
+    height: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    border-radius: 13px;
+    font-size: 3vh;
+    text-align: left;
+    padding-left: 5vw;
+    position: relative;
+    background-color: rgba(186, 0, 0, 0.913);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 11vh;
+    height: 45vh;
+    background-image: url(black.jpeg);
+}
+h2 {
+    flex: 1;
+    padding-top: 8vh;
+    color: #ffffff;
+    font-size: 6.5vh;
+    text-align: center;
+}
+p { 
+    flex: 1;
+    color: white;
+    font-size: 4vh;
+    text-align: center;
+}
+#calender {
+    position: absolute;
+    height: 6vh;
+    right: 3vw;
+    top: 0.4vh;
+}
